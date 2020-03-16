@@ -100,7 +100,7 @@ html {
 
 .content h1 {
     color: white;
-    font-size: 60px;
+    font-size: 250%;
     letter-spacing: 16px;
 }
 
@@ -134,4 +134,19 @@ p {
     50% {
         background-image: url("http://localhost/projetos/landingPage/assets/img/image2.jpg");
     }
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 14px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 10px #00000070;
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(125deg, black, #3498db, black);
+    border-radius: 10px;
 }

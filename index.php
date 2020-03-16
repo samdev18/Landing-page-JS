@@ -37,7 +37,7 @@
                 <h2>Modal header</h2>
             </div>
             <div class="modal-body">
-                <p>Hello.. I'm a modal</p>
+                <p>Modal Teste</p>
 
             </div>
             <div class="modal-footer">
